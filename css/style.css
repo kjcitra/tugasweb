@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f2fa; /* Light pastel blue background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #A2C8E4; /* Pastel blue header */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  aside {
+    width: 200px;
+    background-color: #B7E1F3; /* Lighter pastel blue for sidebar */
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #1C4B73; /* Darker blue for links */
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: #A2C8E4; /* Highlight on hover */
+  }
+  
+  .menu .aktif {
+    background-color: #A2C8E4; /* Active link color */
+    color: #fff; /* White text for active link */
+  }
+  
+  .main {
+    flex: 1;
+    padding: 20px;
+    background-color: #e7f2fa; /* Ensure main area matches the body */
+    border-radius: 5px;
+  }
+  
+  .judul {
+    margin-bottom: 20px;
+    color: #1C4B73; /* Darker blue for section headings */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1C4B73; /* Darker blue for labels */
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select,
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #A2C8E4; /* Light pastel blue border */
+    border-radius: 5px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #1C4B73; /* Darker blue for buttons */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%; /* Set width for buttons */
+    transition: background-color 0.3s;
+    margin-right: 2%; /* Spacing between buttons */
+  }
+  
+  input[type="reset"] {
+    background-color: #B7E1F3; /* Light reset button color */
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #A2C8E4; /* Lighten on hover */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f2fa; /* Light pastel blue background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #A2C8E4; /* Pastel blue header */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  aside {
+    width: 200px;
+    background-color: #B7E1F3; /* Lighter pastel blue for sidebar */
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #1C4B73; /* Darker blue for links */
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: #A2C8E4; /* Highlight on hover */
+  }
+  
+  .menu .aktif {
+    background-color: #A2C8E4; /* Active link color */
+    color: #fff; /* White text for active link */
+  }
+  
+  .main {
+    flex: 1;
+    padding: 20px;
+    background-color: #e7f2fa; /* Ensure main area matches the body */
+    border-radius: 5px;
+  }
+  
+  .judul {
+    margin-bottom: 20px;
+    color: #96caf7; /* Darker blue for section headings */
+  }
+  
+  .tombol {
+    display: inline-block;
+    background-color: #1C4B73; /* Darker blue for buttons */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Space below button */
+  }
+  
+  .tombol:hover {
+    background-color: #A2C8E4; /* Lighten on hover */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid #A2C8E4; /* Light pastel blue border */
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #B7E1F3; /* Header background */
+    color: #1C4B73; /* Darker blue for header text */
+  }
+  
+  .table img {
+    border-radius: 50%; /* Round images */
+  }
+  
+
+  

@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e7f2fa; /* Warna latar belakang biru pastel */
+  color: #333;
+}
+
+/* Background Image */
+.background-image {
+  background-image: url('path/to/your/background-image.jpg'); /* Ganti dengan path gambar latar belakang */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Mengisi tinggi tampilan */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login Container */
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Putih transparan untuk kontainer */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  width: 500px; /* Lebar kontainer */
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  color: #1C4B73; /* Warna heading */
+  margin-bottom: 20px;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left; 
+}
+
+/* Label */
+label {
+  display: block;
+  color: #1C4B73;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #A2C8E4;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+/* Button */
+.masuk-btn {
+  display: inline-block; /* Menjadikan link seperti tombol */
+  background-color: #1C4B73; /* Warna biru untuk tombol */
+  color: #fff; /* Warna teks putih */
+  padding: 10px 15px; /* Padding dalam tombol */
+  border-radius: 5px; /* Sudut melengkung */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  margin-top: 15px; /* Jarak atas */
+  transition: background-color 0.3s; /* Transisi warna saat hover */
+}
+
+.masuk-btn:hover {
+  background-color: #A2C8E4; /* Warna saat hover */
+}

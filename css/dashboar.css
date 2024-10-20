@@ -1,0 +1,126 @@
+/* Reset margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f2fa; 
+    color: #333;
+}
+
+header {
+    background-color: #A2C8E4; 
+    padding: 20px;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.login-btn {
+    background-color: #1C4B73; 
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #A2C8E4; /* Meringankan saat hover */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline; /* Menampilkan menu horizontal */
+    margin: 0 15px; /* Spasi antar menu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1C4B73; /* Warna link biru gelap */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #A2C8E4; /* Meringankan saat hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us, .menu-section, #hours, #location {
+    margin-bottom: 40px;
+    background-color: #B7E1F3; /* Latar belakang section lebih ringan */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column; /* Konten tentang kami vertikal */
+    align-items: center; /* Center align */
+}
+
+.about-content img {
+    max-width: 100%; /* Responsif */
+    border-radius: 5px; /* Sudut bulat pada gambar */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around; /* Spasi antara item menu */
+    flex-wrap: wrap; /* Memungkinkan menu item untuk turun ke baris baru */
+}
+
+.menu-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.menu-item img {
+    max-width: 150px; /* Ukuran tetap untuk gambar menu */
+    border-radius: 5px; /* Sudut bulat pada gambar */
+}
+
+.hours-container {
+    display: flex;
+    justify-content: space-around; /* Spasi antar jam operasional */
+}
+
+.hours-card {
+    background-color: #A2C8E4; /* Kartu jam operasional */
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%; /* Lebar tetap untuk kartu */
+}
+
+.hours-card h3 {
+    color: #1C4B73; /* Warna judul jam operasional */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A2C8E4; /* Latar belakang footer */
+    position: relative; /* Untuk footer tetap di bawah */
+}
+
+footer p {
+    color: white; /* Teks footer putih */
+}
